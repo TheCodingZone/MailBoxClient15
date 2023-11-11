@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+.home {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-image: url("https://images.unsplash.com/photo-1603539240352-8f2cce3257c4?auto=format&fit=crop&q=80&w=1471&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  padding-top: 5rem;
+}

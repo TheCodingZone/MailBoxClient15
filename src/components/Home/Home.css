@@ -1,0 +1,143 @@
+.home-header-bg {
+  background-color: #7859f9;
+}
+
+.font-weight {
+  font-weight: 500;
+}
+
+.menu {
+  background-color: #5353d7;
+}
+.menubar {
+  font-size: 30px;
+}
+.compose {
+  width: 100%;
+  background-color: rgb(65, 155, 214);
+  text-shadow: 1px 1px black;
+  border-radius: 25px;
+  padding: 13px 0px;
+  border: none;
+}
+.compose:active{
+  transform: scale(0.95);
+}
+
+/* // Menul List  */
+.inbox-list {
+  width: 100%;
+}
+.menu-list {
+  margin: 0;
+  padding: 0;
+  
+}
+.menu-list li {
+  list-style: none;
+  padding: 10px 0px 10px 4px;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 3px;
+}
+.menu-list li:hover {
+  background-color: #b6d4fb;
+}
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.list-active {
+  background-color: #b6d4fb;
+}
+
+.mail-lists ul {
+  list-style: none;
+  margin: 1px;
+  padding: 0;
+}
+.mail-lists ul li {
+  cursor: pointer;
+  padding: 3px 3px;
+  border-bottom: 1px solid rgba(0, 128, 0, 0.37);
+  transition: all 0.5s ease-in-out;
+}
+.mail-lists ul li:hover {
+  background-color: #cac6c66c;
+}
+.bullet {
+  clip-path: circle(50% at 50% 50%);
+  background-color: green;
+  width: 10px;
+  height: 10px;
+}
+
+.menu-disp {
+  height: 470px;
+  margin: 0 5px;
+}
+
+.message-container {
+  padding: 0.75px 2rem;
+}
+.mail-readMod-container {
+  max-height: 80%;
+  min-height: 80%;
+  overflow-y: scroll;
+}
+.bg-light {
+  background-color: white !important;
+}
+.description-mail-list {
+  display: inline-block;
+  width: 200px; /* Adjust the width as needed */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mail-readmode-header span {
+  font-size: 16px;
+  margin: 3px 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.font-reducer {
+  font-size: 1rem;
+}
+@media (max-width: 768px) {
+  .disp {
+    display: block;
+  }
+  .font-reducer {
+    overflow-x: scroll;
+  }
+  .description-mail-list {
+    display: none;
+  }
+  .menu {
+    position: absolute;
+    top: 0px;
+    max-height: 100vh;
+    overflow-y: scroll;
+  }
+  .menu-disp {
+    display: none;
+  }
+  .mail-main {
+    position: relative;
+  }
+}
+.sent-mail-count,
+.inbox-mail-count {
+  padding-left: 10px;
+  border-radius: 5px;
+  color: rgb(226, 136, 136);
+}
+.inbox-unread-count{
+  padding-left: 10px;
+  border-radius: 5px;
+  color: rgb(4, 247, 45);
+}
